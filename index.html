@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="profile-picture.png" alt="Alinda Byamukama Profile Picture" data-testid="profilePicture">
+        <h1 data-testid="fullName">Alinda Byamukama</h1>
+        <h2 data-testid="jobTitle">Frontend Developer</h2>
+        <p data-testid="shortBio">Passionate about building responsive and user-friendly web interfaces. Ever eager to learn and explore new technologies.</p>
+        <p data-testid="currentLocation">Kampala, Uganda</p>
+        <p data-testid="emailAddress">alindabyamukama@gmail.com</p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://linkedin.com/in/alindabyamukama" target="_blank">LinkedIn</a>
+            <a href="https://github.com/alindaByamukama" target="_blank">GitHub</a>
+            <a href="https://twitter.com/alindabyamukama" target="_blank">Twitter</a>
+        </div>
+        <p data-testid="currentTimeUTC">Current Time (UTC): <span id="utc-time"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
